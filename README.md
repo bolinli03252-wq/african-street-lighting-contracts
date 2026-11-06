@@ -7,12 +7,14 @@ Public contract award data for street lighting, solar street lights and high-mas
 | File | Rows | Coverage | Source |
 |---|---|---|---|
 | `data/world_bank_street_lighting_awards_nigeria_kenya.csv` | 26 | Nigeria 2023-2026, Kenya 2024 | World Bank procurement notices (search.worldbank.org) |
+| `data/world_bank_africa_lighting_notices.csv` | 181 | 27 African countries, 2011-2026 | World Bank procurement notices (tenders and awards) |
 | `data/kenya_public_lighting_contracts.csv` | 660 | Kenya 2017-2026 | Kenya Public Procurement Information Portal (tenders.go.ke) |
 
 ## Findings
 
 - World Bank-funded solar lighting contracts in Nigeria: all 12 awards went to Nigerian companies; 9 of 12 used Request for Quotations. Analysis: https://solmast.com/nigeria-world-bank-solar-street-lights.html
 - World Bank-funded KISIP II in Kenya: 8 lighting-only packages, all between KES 27.8 and 30.0 million. Analysis: https://solmast.com/kenya-30m-high-mast-solar-street-lights.html
+- Across Africa, 107 of 115 awards that name the winner's country went to a company from the buying country; 3 went to Chinese firms. Live tracker: https://solmast.com/africa-street-light-tender-tracker.html
 - 660 Kenyan public lighting contracts: https://solmast.com/insights-kenya-public-lighting-contracts-analysis.html
 
 ## Method and limits
@@ -21,7 +23,7 @@ We searched the sources for street light, streetlight, street lighting, solar li
 
 The Kenya file includes every award the keyword search returned, so a few rows are lightning arresters or maintenance. Filter by `tender_title` for your use.
 
-Retrieved 5 November 2026. Updates are planned quarterly.
+World Bank Africa file retrieved 7 November 2026, updated monthly with the tracker; the other two files retrieved 5 November 2026.
 
 ## Licence
 
