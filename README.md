@@ -8,6 +8,7 @@ Public contract award data for street lighting, solar street lights and high-mas
 |---|---|---|---|
 | `data/world_bank_street_lighting_awards_nigeria_kenya.csv` | 26 | Nigeria 2023-2026, Kenya 2024 | World Bank procurement notices (search.worldbank.org) |
 | `data/world_bank_africa_lighting_notices.csv` | 181 | 27 African countries, 2011-2026 | World Bank procurement notices (tenders and awards) |
+| `data/tanzania_zambia_lighting_contracts.csv` | 216 | Tanzania and Zambia, 2025-2026 | National open contracting data via the OCP Data Registry |
 | `data/kenya_public_lighting_contracts.csv` | 660 | Kenya 2017-2026 | Kenya Public Procurement Information Portal (tenders.go.ke) |
 
 ## Findings
@@ -23,7 +24,7 @@ We searched the sources for street light, streetlight, street lighting, solar li
 
 The Kenya file includes every award the keyword search returned, so a few rows are lightning arresters or maintenance. Filter by `tender_title` for your use.
 
-World Bank Africa file retrieved 7 November 2026, updated monthly with the tracker; the other two files retrieved 5 November 2026.
+World Bank Africa file retrieved 7 November 2026, updated monthly with the tracker; the Tanzania and Zambia file retrieved October 2026 (unique awards, one row per contract, no contact details); the other two files retrieved 5 November 2026.
 
 ## Licence
 
